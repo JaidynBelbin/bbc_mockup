@@ -1,0 +1,174 @@
+body, div, ul, p {
+                padding: 0;
+                margin: 0;
+                font-family: arial, helvetica, sans-serif;
+            }
+            
+            h1 {
+                color: #1F4F82;
+                font-size: 2em;
+            }
+            
+            #top_bar {
+                background-color: #000000;
+                width: 100%;
+                height: 41px;
+                color: white;
+            }
+            
+            .fixed_width {
+                width: 994px;
+                height: 41px;
+                margin: 0 auto;
+            }
+            
+            #logo_div {
+                height: 41px;
+                float: left;
+                border-right: 1px solid #666666;
+            }
+            
+            #logo_div img {
+                height: 24px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-right: 8px;
+            }
+            
+            #sign_in_div {
+                height: 41px;
+                width: 100px;
+                font-weight: bold;
+                font-size: 0.8em;
+                border-right: 1px solid #666666;
+                padding-right: 70px;
+                float: left;
+            }
+            
+            #sign_in_div img {
+                height: 24px;
+                padding-left: 13px;
+                position: relative;
+                top: 8px;
+            }
+            
+            #top_menu_div {
+                float: left;
+            }
+            
+            #top_menu_div li {
+                float: left;
+                list-style: none;
+                font-weight: bold;
+                font-size: 0.8em;
+                padding: 12px 15px 14px 15px;
+                border-right: 1px solid #666666;
+            }
+            
+            #top_menu_div li:nth-of-type(7) {
+                padding-right: 60px;
+            }
+            
+            #search_div {
+                float: left;
+            }
+            
+            #search_div input {
+                margin-top: 8px;
+                margin-left: 15px;
+                height: 17px;
+                width: 184px;
+                font-size: 12px;
+                background-image: url("images/search_icon.png");
+                background-repeat: no-repeat;
+                background-position: right center;
+            }
+            
+            .break {
+                clear: both; 
+            }
+            
+            #news_bar {
+                background-color: #E7E8E1;
+                width: 100%;
+                height: 110px;
+                color: black;
+            }
+            
+            #news_header {
+                font-size: 3em;
+                font-weight: bold;
+                padding-top: 20px;
+                float: left;
+            }
+            
+            #news_text {
+                padding-right: 15px;
+                border-right: 1px solid #666666;
+            }
+            
+            #australia_text {
+                padding-left: 15px;
+                font-size: 0.75em;
+            }
+            
+            #topic_menu_div {
+                padding-top: 10px;
+            }
+            
+            #topic_menu_div ul {
+                float: left;
+                width: 981px;
+                color: white;
+                background-color: #E91802;
+                padding: 5px 3px 5px 10px;
+            }
+            
+            #topic_menu_div li {
+                float: left;
+                list-style: none;
+                font-size: 0.8em;
+                padding-left: 8px;
+                padding-right: 8px;
+                border-right: 1px solid #666666;
+            }
+            
+            #topic_menu_div li:nth-of-type(14) {
+                border-right: none;
+            }
+            
+            #content {
+                width: 100%;
+                color: #535353;
+                
+            }
+            
+            #content p {
+                float: left;
+                font-size: 0.75em;
+                margin-top: 20px;
+            }
+            
+            #share_icon {
+                float: right;
+                height: 30px;
+                margin-top: 10px;
+            }
+              
+            .date {
+                font-weight: bold;
+            }
+            
+            #images_div p {
+                font-size: 1em;
+                font-weight: bold;
+                width: 600px;
+                margin-left: 200px;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+            
+            #images_div img {
+                width: 100%;
+                margin-bottom: 30px;
+            }
